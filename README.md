@@ -1,27 +1,59 @@
-# ExpenseTrackerUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+# Expense Tracker Frontend
 
-## Development server
+Comprehensive Financial Analysis Tool: Keyword-Based Transaction Search and Trend Visualization
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Expense Tracker Interface 1](https://i.ibb.co/XXg9fCY/task-1.png)
+![Expense Tracker Interface 2](https://i.ibb.co/Zd78p4X/task-1-3.png)
+![Expense Tracker Interface 3](https://i.ibb.co/YP70DnS/task-3.png)
 
-## Code scaffolding
+## Problem Statement
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1.Overview: Introduce the Comprehensive Financial Analysis Tool, designed to assist businesses in managing and analyzing their financial transactions.
+2.Task 1 - Keyword-Based Transaction Search:
+Enable users to search for specific transaction keywords across multiple bank statements.
+Feature options to select specific bank accounts and define a time range for the search.
+3.Task 2 - Trend Visualization and Aggregation:
+Allow users to visualize trends and aggregate data for specified financial categories over time.
+Implement keyword matching to categorize transactions in line items, such as "salary", "marketing", etc.
+4. Task 3 - Automated Category Identification:
+Develop an algorithm to automatically identify common spending and earning categories from bank statements.
+Provide a breakdown of transactions for each identified category, with functionality similar to Task 2.
 
-## Build
+## Setting up the Frontend in Local Environment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To set up UnstopFrontend locally, follow these steps:
 
-## Running unit tests
+1. **Clone the repository**:
+   ```bash
+   https://github.com/sum1275/expence_tracker_frontend.git
+2. **Update apiUrl**:
+   In `src/environments/environment.ts`, update the `apiUrl` to point to your local server environment:
+   ```typescript
+   apiUrl = 'http://localhost:8084/';
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Start the Server**:
+   To initiate the application server, execute the following command in your terminal:
+   ```bash
+   ng serve
+5. **Contributing**:
+   Your contributions are essential to the development and improvement of the Expense Tracker project. Here are the steps to contribute:
 
-## Running end-to-end tests
+   1. **Fork the Project**: Begin by creating your own copy of the project on GitHub.
+   2. **Create Your Feature Branch**: Start a new feature by using the command:
+      ```git
+      git checkout -b feature/AmazingFeature
+      ```
+   3. **Commit Your Changes**: After completing your feature, commit your changes with:
+      ```git
+      git commit -m 'Add some AmazingFeature'
+      ```
+   4. **Push to the Branch**: Upload your new feature to GitHub using:
+      ```git
+      git push origin feature/AmazingFeature
+      ```
+   5. **Open a Pull Request**: Finally, submit your changes for review to be potentially merged into the main project.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   
