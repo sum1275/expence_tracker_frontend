@@ -9,16 +9,20 @@ Comprehensive Financial Analysis Tool: Keyword-Based Transaction Search and Tren
 
 ## Problem Statement
 
-1.Overview: Introduce the Comprehensive Financial Analysis Tool, designed to assist businesses in managing and analyzing their financial transactions.
-2.Task 1 - Keyword-Based Transaction Search:
-Enable users to search for specific transaction keywords across multiple bank statements.
-Feature options to select specific bank accounts and define a time range for the search.
-3.Task 2 - Trend Visualization and Aggregation:
-Allow users to visualize trends and aggregate data for specified financial categories over time.
-Implement keyword matching to categorize transactions in line items, such as "salary", "marketing", etc.
-4. Task 3 - Automated Category Identification:
-Develop an algorithm to automatically identify common spending and earning categories from bank statements.
-Provide a breakdown of transactions for each identified category, with functionality similar to Task 2.
+1. **Overview**: Introduce the Comprehensive Financial Analysis Tool, designed to assist businesses in managing and analyzing their financial transactions.
+
+2. **Task 1 - Keyword-Based Transaction Search**:
+   - Enable users to search for specific transaction keywords across multiple bank statements.
+   - Feature options to select specific bank accounts and define a time range for the search.
+
+3. **Task 2 - Trend Visualization and Aggregation**:
+   - Allow users to visualize trends and aggregate data for specified financial categories over time.
+   - Implement keyword matching to categorize transactions in line items, such as "salary", "marketing", etc.
+
+4. **Task 3 - Automated Category Identification**:
+   - Develop an algorithm to automatically identify common spending and earning categories from bank statements.
+   - Provide a breakdown of transactions for each identified category, with functionality similar to Task 2.
+
 
 ## Setting up the Frontend in Local Environment
 
