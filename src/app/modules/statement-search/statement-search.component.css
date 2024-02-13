@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+     
+ .card-body .float-right {
+     float: none !important;
+ }
+ #searchbtn {
+     flex-flow: initial !important;
+     width: 100%;
+ }
+ 
+}
